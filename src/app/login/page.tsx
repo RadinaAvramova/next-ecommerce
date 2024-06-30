@@ -140,7 +140,7 @@ const LoginPage = () => {
             <input
               type="text"
               name="username"
-              placeholder="john"
+              placeholder="radina"
               className="ring-2 ring-gray-300 rounded-md p-4"
               onChange={(e) => setUsername(e.target.value)}
             />
@@ -152,7 +152,7 @@ const LoginPage = () => {
             <input
               type="email"
               name="email"
-              placeholder="john@gmail.com"
+              placeholder="radina@gmail.com"
               className="ring-2 ring-gray-300 rounded-md p-4"
               onChange={(e) => setEmail(e.target.value)}
             />
